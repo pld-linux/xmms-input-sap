@@ -31,8 +31,9 @@ Ta wtyczka pozwala XMMS-owi odtwarzaæ pliki muzyczne w formacie SAP
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{xmms_input_plugindir}
 
-install -D insap.so $RPM_BUILD_ROOT%{xmms_input_plugindir}
+install insap.so $RPM_BUILD_ROOT%{xmms_input_plugindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
