@@ -2,7 +2,7 @@ Summary:	SAP music input plugin for XMMS
 Summary(pl):	Wtyczka wej¶ciowa muzyki w formacie SAP dla XMMS
 Name:		xmms-input-sap
 Version:	0.4
-Release:	3
+Release:	4
 License:	Freeware
 Group:		X11/Applications/Sound
 Source0:	http://kunik.republika.pl/sap/dl/insap-%{version}.tar.gz
@@ -11,7 +11,6 @@ URL:		http://kunik.republika.pl/sap/
 BuildRequires:	libsap-devel
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel >= 1.2.3
-Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
