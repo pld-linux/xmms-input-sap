@@ -6,6 +6,7 @@ Release:	1
 License:	Freeware
 Group:		X11/Applications/Sound
 Source0:	http://kunik.republika.pl/sap/dl/insap-%{version}.tar.gz
+# Source0-md5:	d92c9ec6cc0312dd86376134f758a1eb
 URL:		http://kunik.republika.pl/sap/
 BuildRequires:	libsap-devel
 BuildRequires:	xmms-devel >= 1.2.3
