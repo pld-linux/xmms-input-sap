@@ -4,7 +4,7 @@ Name:		xmms-input-sap
 Version:	0.4
 Release:	1
 License:	Freeware
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	http://kunik.republika.pl/sap/dl/insap-%{version}.tar.gz
 URL:		http://kunik.republika.pl/sap/
 BuildRequires:	libsap-devel
